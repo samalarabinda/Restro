@@ -36,10 +36,10 @@ const Hero = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2">
             <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0
               text-center sm:text-left order-2 sm:order-1">
-              <h1 className='text-5xl sm:text-6xl lg-text-7xl font-bold'>
+              <h1 className='text-5xl sm:text-6xl lg-text-7xl font-bold dark:text-gray-700'>
                 Welcome to the Foodie zone
               </h1>
-              <p className='text-base'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, dolor.</p>
+              <p className='text-base dark:text-gray-700'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, dolor.</p>
               <div>
                 <button className='bg-gradient-to-r from-main to-secondary text-white 
               px-4 py-1.5 rounded-full hover:scale-105 duration-200 cursor-pointer '>Order Now</button>
