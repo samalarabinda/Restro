@@ -26,7 +26,7 @@ const bgImage = {
   height: "auto"
 }
 
-const Hero = () => {
+const Hero = ({handleClick}) => {
   const [imageId, setImageId] = useState(biriyani1);
   return (
     <>
@@ -42,7 +42,7 @@ const Hero = () => {
               <p className='text-base dark:text-gray-700'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, dolor.</p>
               <div>
                 <button className='bg-gradient-to-r from-main to-secondary text-white 
-              px-4 py-1.5 rounded-full hover:scale-105 duration-200 cursor-pointer '>Order Now</button>
+              px-4 py-1.5 rounded-full hover:scale-105 duration-200 cursor-pointer ' onClick={()=> handleClick()}>Order Now</button>
               </div>
             </div>
             {/* Image Section */}

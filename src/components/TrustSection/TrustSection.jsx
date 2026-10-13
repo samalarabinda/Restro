@@ -4,7 +4,7 @@ import { IoFastFood } from 'react-icons/io5';
 import { GrSecure } from 'react-icons/gr';
 import { GiFoodTruck } from 'react-icons/gi';
 
-const TrustSection = () => {
+const TrustSection = ({handleClick}) => {
   return (
     <div className='py-10'>
         <div className="custom-container">
@@ -34,7 +34,7 @@ const TrustSection = () => {
                 </div>
                 <div>
                  <button className='bg-gradient-to-r from-main to-secondary text-white 
-              px-4 py-1.5 rounded-full hover:scale-105 duration-200 cursor-pointer '>Order Now</button>
+              px-4 py-1.5 rounded-full hover:scale-105 duration-200 cursor-pointer ' onClick={()=> handleClick()}>Order Now</button>
                 </div>
                
             </div>

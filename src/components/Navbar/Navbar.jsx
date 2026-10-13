@@ -17,7 +17,7 @@ const menu=[
     }
 ]
 
-const Navbar = () => {
+const Navbar = ({handleClick}) => {
 
 
     return (
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 ))}
                             </ul>
                             <button className='flex justify-center items-center gap-1 text-[16px] cursor-pointer bg-gradient-to-r from-main to-secondary text-white px-4 py-1.5
-                            rounded-full hover:scale-105 duration-300 '>
+                            rounded-full hover:scale-105 duration-300 ' onClick={()=> handleClick()}>
                                 Order 
                                 <FaShoppingCart />
                             </button>
